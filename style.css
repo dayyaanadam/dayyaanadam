@@ -1,0 +1,137 @@
+
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    padding: 40px 100px;
+    z-index: 1;
+}
+header .logo {
+    position: relative;
+    font-weight: 600;
+    color: #991600;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .6s;
+}
+header .logo img {
+    width: 250px;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400px;
+    transition: .6s;
+}
+header.sticky {
+    padding: 5px 100px;
+    background: #000;
+}
+header.sticky ul li a {
+    color: #000;
+}
+.loader {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 12;
+}
+
+}
+@-webkit-keyframes barprogress {
+    0% {
+        background-position: 0% 0 
+   }
+    to {
+        background-position: 125% 0 
+   }
+}
+@keyframes barprogress {
+    0% {
+        background-position: 0% 0 
+   }
+    to {
+        background-position: 125% 0 
+   }
+}
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0 
+   }
+    to {
+        opacity: 1 
+   }
+}
+@keyframes fadein {
+    0% {
+        opacity: 0 
+   }
+    to {
+        opacity: 1 
+   }
+}
+.container {
+    margin: 300px 20px;
+    position: relative;
+    height: 100vh;
+}
+.block {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+   /* height: 100%;
+    */
+    background: linear-gradient(0deg, #000, #272727);
+}
+.block h2 {
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.block p {
+    padding: 10px;
+}
+
+h2 {
+color:#14e7b7 ;
+}
+div {
+  text-align: center;
+}
+/*img {
+width: 30%;
+height: 30%;
+}*/
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+   }
+    50% {
+        background-position: 400% 0;
+   }
+    100% {
+        background-position: 0 0;
+   }
+}
+.block:after {
+    filter: blur(50px);
+}
